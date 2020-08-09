@@ -1,0 +1,40 @@
+.boarder{
+  max-width: 600px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to bottom, #28b3f6, #2ab3f6, #708ae8);
+  padding: 20px;
+  }
+  
+.box{
+  background: #FFFFFF;
+  color: black;
+  padding: 2rem;
+}
+.logo {
+  max-width: 40%;
+  height: auto;
+  padding-bottom: 0px;
+}
+
+.container {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap ;
+  align-items:baseline;
+}
+.standardContainer{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap ;
+}
+
+.textBox{
+  width: 100%;
+}
+
+.standardTextBox{
+  width: 100%;
+}
